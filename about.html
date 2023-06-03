@@ -1,0 +1,121 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   <input type="text " id="id" onkeyup="clickme()">
+   <button id="cll" onclick="clck()"> Click </button>
+   <button id="cll" onclick="cll()"> Click</button>
+
+    
+    <table id="table">
+        <!  --
+        <tr class="header">
+          <th>Student</th>
+          <th>University</th>
+          <th>Status</th>
+        </tr>
+        
+        <tr>
+          <td>Nasir zia</td>
+          <td>Numl</td>
+          <td>in progress</td>
+        </tr>
+    
+        <tr>
+          <td>Rai Hamza</td>
+          <td>GC</td>
+          <td>in progress</td>
+        </tr>
+  
+        <tr>
+          <td>Rao zaid</td>
+          <td>Gc</td>
+          <td>in progress</td>
+        </tr>
+        
+        <tr>
+          <td>Rao rabi</td>
+          <td>Gc</td>
+          <td>in progress</td>
+        </tr>
+      
+        <tr>
+          <td>Rana Subhan</td>
+          <td>Gc </td>
+          <td>Completed</td>
+        </tr>
+        
+        <tr>
+          <td>Rana Ahmad</td>
+          <td>Gc</td>
+          <td>Completed</td>
+        </tr>  
+     
+      </table>
+      <script>
+        function clickme() {
+          
+          var input, filter, table, tr, td, txtValue;
+          input = document.getElementById("id");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("table");
+          tr = table.getElementsByTagName("tr");
+          td = table.getElementsByTagName("td")
+        
+          
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            td1 = tr[i].getElementsByTagName("td")[1];
+            td2 = tr[1].getElementsByTagName("td")[2];
+
+            if (td) {
+              txtValue = td.textContent;
+              txtValue1=td1.textContent;
+              txtValue2 = td2.textContent;
+
+              if (txtValue.toUpperCase().indexOf(filter) > -1 || txtValue1.toUpperCase().indexOf(filter)>-1){
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }
+          }
+        }
+
+
+
+          function clck(){
+            var g ,td,txtValue;
+            td = tr[1].getElementsByTagName("td")[2];
+
+            g = getElementById("table")
+            if(txtValue1.toUpperCase().indexOf(filter)>-1== [2]){
+              alert("hello")
+            }
+
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+</body>
+</html> -->

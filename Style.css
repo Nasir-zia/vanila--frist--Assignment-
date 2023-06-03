@@ -1,0 +1,18 @@
+input{
+    background-color: aquamarine;
+    margin-left:40%;
+    margin-top: 10%;
+}
+
+#table{
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.header{
+    border: solid 1px black;
+}
+
+td{
+    border: solid 1px black;
+    font-size: larger;
+}
